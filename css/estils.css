@@ -98,6 +98,7 @@ footer {
 
 .article1, .article2, .article3 {
     position: relative;
+    background-color: indigo;
 }
 
 .p1 {
@@ -105,11 +106,30 @@ footer {
     color: darkred;
 }
 
-.p2 {
-    font-size: 80px;
-    color: aqua;
-}
-
 aside {
     position: fixed;
+
 }
+
+.imgArticles:hover {
+    background-color: blue;
+    padding: 10px;
+    box-shadow: red;
+    transition: background-color;
+    width: 100px;
+    height: 100px;
+}
+
+.divPare {
+    background-image: url("images/imgHead.png");
+    width: 100px;
+    height: 100px;
+}
+
+.divFill {
+    background-color: indigo;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+}
+
